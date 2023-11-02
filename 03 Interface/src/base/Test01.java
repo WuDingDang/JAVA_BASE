@@ -28,6 +28,12 @@ interface C extends A,B{
 }
 
 class D implements A ,B{
+    //错误：正在尝试分配更低的访问权限;以前为public
+	/*
+	int sub(int a,int b){
+		return a - b;
+	}
+	*/
     @Override
     public int sum(int a, int b) {
         return a+b;

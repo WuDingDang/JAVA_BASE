@@ -12,5 +12,11 @@ public class Test01 {
         System.out.println(s4.equals(s3));    //true
         System.out.println(s4.equals(s1));    //true
         System.out.println(s3.toString());
+
+        /*  Object类的equals方法
+	public boolean equals(Object obj){
+		return (this == obj);
+	}
+	*/
     }
 }

@@ -3,7 +3,9 @@ public class FinalTest03 {
         User u = new User();
     }
 }
-
+/*
+final修饰的实例变量需要手动赋值（可以在构造器中初始化，也可以程序员手动赋值）
+ */
 class User{
     final int age = 11;
     final double height = 190;

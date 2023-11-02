@@ -33,23 +33,41 @@ public class IntegerTest01 {
         short shortValue()
 
  */
-        //基本数据类型  --> 引用数据类型
+        //基本数据类型  --> 引用数据类型（装箱）
         Integer integer = new Integer(123);
         System.out.println(integer);
+
+        //引用数据类型  ----->  基本数据类型（拆箱）
         float f = integer.floatValue();
         System.out.println(f);
         int i = integer.intValue();
         System.out.println(i);
+
+         /*
+        Integer的构造方法
+            Integer(int)
+            Integer(String)
+         */
+        //将数字100转换成Integer包装类型(int ---> Integer)
+        Integer zz = new Integer(100);
+
+        //将String转换成Integer包装类型(String ---> Integer)
         Integer integer1 = new Integer("111");
         System.out.println(integer1);
+
+        /*
+         *      通过访问包装类的常量，来获取最大值和最小值
+         */
         System.out.println(Integer.MIN_VALUE);
         System.out.println(Integer.MAX_VALUE);
         System.out.println(Byte.MIN_VALUE);
         System.out.println(Byte.MAX_VALUE);
 
         //自动装箱
-
+        // int类型自动转换为Integer
         Integer x = 1000;
+        //自动拆箱
+        //Integer自动转换为int
         int y = x;
         Integer z = 1000;
         Integer g = 1000;
@@ -65,6 +83,14 @@ public class IntegerTest01 {
         Integer m = 2;
         Integer n = 2;
         System.out.println(m == n);
+
+        /*
+    经典异常
+        空指针异常               NullPointerException
+        类型转换异常             ClassCastException
+        数组下表越界异常         IndexOutOfBoundsException
+        数字格式化异常           NumberFormatException
+ */
 
     }
 }

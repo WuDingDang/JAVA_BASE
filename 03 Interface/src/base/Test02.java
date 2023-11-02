@@ -21,7 +21,9 @@ class Animal{
 interface Flyable{
     void fly();
 }
-
+/*
+	继承和实现都存在的话，代码怎么写
+*/
 class Bird extends Animal implements Flyable{
 
     @Override
