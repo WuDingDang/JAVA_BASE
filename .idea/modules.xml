@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01Final/01Final.iml" filepath="$PROJECT_DIR$/01Final/01Final.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02 Abstract/02 Abstract.iml" filepath="$PROJECT_DIR$/02 Abstract/02 Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03 Interface/03 Interface.iml" filepath="$PROJECT_DIR$/03 Interface/03 Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04 Object/04 Object.iml" filepath="$PROJECT_DIR$/04 Object/04 Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05 String/05 String.iml" filepath="$PROJECT_DIR$/05 String/05 String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVAINTERVIEW.iml" filepath="$PROJECT_DIR$/JAVAINTERVIEW.iml" />
+    </modules>
+  </component>
+</project>
