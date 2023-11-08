@@ -297,7 +297,19 @@ Collections.synchronizedList(list);
 
 
 
+# 19.List 和 Set
 
+- List：有序可重复，元素有下标，可以插入多个null值
+  - ArrayList：底层是数组，检索效率高，随机增删效率低，初始化容量10，扩容到原容量的1.5倍，**非线程安全**
+  - LinkedList：底层是双向链表，检索效率低，随机增删效率高
+  - Vector：底层是数组，**线程安全**
+- Set：无序不可重复，元素无下标，只能插入一个null值
+  - HashSet：底层是哈希表，初始化容量16，扩容到原容量的2倍
+  - TreeSet：底层是二叉树
+
+
+
+# 20. 
 
  
 
